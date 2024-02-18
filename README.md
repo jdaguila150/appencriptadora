@@ -22,16 +22,22 @@ python iain.py
 ```
 
 Esto solicitará al usuario que ingrese un mensaje. El mensaje será encriptado y luego desencriptado utilizando las funciones definidas en `encript.py` y `decrypt.py`.
-Sin embargo, tambien es posible ejecutar el código desde el siguiente link
+- Sin embargo, tambien es posible ejecutar el código desde el siguiente link
 
 https://replit.com/join/gbmsapogwg-aguilaortegajos
 
 ## Dependencias
 
-Este proyecto depende de la biblioteca `cryptography`, que puede instalarse utilizando pip:
+Este proyecto depende de la biblioteca `cryptography` para manejar las peticiones de encriptación, que puede instalarse utilizando pip:
 
 ```
 pip install cryptography
+```
+
+Ademas del uso de la biblioteca `psutil` para obtener la información relacionada con el uso de los recursos de equipo, puede instalarse utilizando pip:
+
+```
+pip install psutil
 ```
 
 ## Uso
