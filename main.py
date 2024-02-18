@@ -1,16 +1,9 @@
-from cryptography.hazmat.backends import default_backend
-from cryptography.hazmat.primitives import padding
-from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
-from cryptography.hazmat.primitives import hashes
-from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 import os
 from encript import encript_message
 from decrypt import decrypt_message
 import time
-import os
 import psutil
-from encript import encript_message
-from decrypt import decrypt_message
+
 
 def generate_random_key():
     return os.urandom(32)
