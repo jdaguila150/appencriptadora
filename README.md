@@ -15,13 +15,16 @@ Este repositorio contiene tres scripts Python relacionados con el cifrado y desc
 
 ## Ejecución
 
-Para ejecutar el script principal `index.py`, simplemente ejecuta el siguiente comando en tu terminal:
+Para ejecutar el script principal `main.py`, simplemente ejecuta el siguiente comando en tu terminal:
 
 ```
 python iain.py
 ```
 
 Esto solicitará al usuario que ingrese un mensaje. El mensaje será encriptado y luego desencriptado utilizando las funciones definidas en `encript.py` y `decrypt.py`.
+Sin embargo, tambien es posible ejecutar el código desde el siguiente link
+
+https://replit.com/join/gbmsapogwg-aguilaortegajos
 
 ## Dependencias
 
