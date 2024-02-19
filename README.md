@@ -20,8 +20,12 @@ Para ejecutar el script principal `main.py`, simplemente ejecuta el siguiente co
 ```
 python iain.py
 ```
-
+- Opción 1:
 Esto solicitará al usuario que ingrese un mensaje. El mensaje será encriptado y luego desencriptado utilizando las funciones definidas en `encript.py` y `decrypt.py`.
+- Opción 2:
+Esto solicitará al usuario que ingrese un mensaje el cual será encriptado y mostrado en un formato hexadecimal para posteriormente poder ser procesado mas sencillamente en el desencriptado.
+- Opción 3:
+Esto solicitará al usuario el mensaje cifrado, su IV y su cave secreta, de esta manera se podrá desencriptar el mensaje.
 - Sin embargo, tambien es posible ejecutar el código desde el siguiente link
 
 https://replit.com/join/gbmsapogwg-aguilaortegajos
@@ -43,7 +47,7 @@ pip install psutil
 ## Uso
 
 1. Ejecuta el script principal `main.py`.
-2. Ingresa el mensaje que deseas encriptar cuando se te solicite.
-3. El mensaje será encriptado y luego desencriptado automáticamente.
-4. Se mostrará el mensaje original y el mensaje desencriptado para verificar la funcionalidad.
+2. Selecciona la opción 1,2 o 3
+3. Ingresa los datos que solicite la consola
+4. Se encriptara y desencriptará si se seleccionó la opción 1; se encriptará si se seleccionó la opción 2; se podrá desencriptar si es que se escoje la opción 3
 
